@@ -4,10 +4,10 @@ const autoGetPage = require(path.join(__dirname, "./utils/autoPage.js"));
 const sidebar = autoGetPage();
 
 const config = {
-  title: "白开水博客",
+  title: "白开水个人小计",
   description: "记录",
-  base: "/blog/",
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  base: "/",
+  head: [["link", { rel: "icon", href: "/img/logo.png" }]],
   markdown: {
     lineNumbers: true, // 代码块显示行号
   },
